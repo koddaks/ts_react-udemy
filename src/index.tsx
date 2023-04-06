@@ -1,5 +1,6 @@
 import ReactDOM from "react-dom/client";
 import GuestList from "./state/GuestList";
+import UserSearch from "./state/userSearch";
 
  
 
@@ -12,7 +13,7 @@ const root = ReactDOM.createRoot(el!);
 const App = () => {
   return (
     <div>
-     <GuestList/>
+     <UserSearch/>
     </div>
   );
 };
